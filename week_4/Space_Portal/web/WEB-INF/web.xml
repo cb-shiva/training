@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>CreateUser</servlet-name>
+        <servlet-class>org.mypackage.helper.CreateUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>org.mypackage.helper.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addAddress</servlet-name>
+        <servlet-class>org.mypackage.helper.addAddress</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deactivate</servlet-name>
+        <servlet-class>org.mypackage.helper.deactivate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CreateUser</servlet-name>
+        <url-pattern>/create_user</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addAddress</servlet-name>
+        <url-pattern>/add_address</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deactivate</servlet-name>
+        <url-pattern>/deactivate</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,39 @@
+Day 2 & 3 - Getting a close look at setup database & SQL:
+Setup sample database
+Setup a database training_sample.
+ Load the sample data with the mysql source statement.
+Download the sample data attached below with the name "sample-sql-data.sql".
+After you have loaded the table and data, check them by issuing simple select statements.
+Write simple queries for the questions posted here.
+Joins & SubQueries
+Write the queries from the "marks" table using inner join with the table "students" table to replace student_id with name. The questions are here.
+Write the queries for the questions here.
+Exercise
+Create table and table elements for this model and list the queries used.
+Write the sql queries for these questions using above problem.
+Day 4 - More SQLs:
+Alter Table
+Add columns 'created_at' and 'updated_at' to the tables marks, students and medals.
+Replace the null values in quarterly, half_yearly and annual columns with 0 and make those columns as not nullable.
+Insert and update records into a table
+While inserting the value of updated_at & created_at should be the current time
+While updating the value of updated_at alone should be the time of update
+Exercise:
+Write a query for the problem given here.
+Triggers
+Exercises:
+Add a column average to the table marks. Write a trigger to calculate the average marks for the subject whenever any insert/update happens in the columns quarterly, half_yearly and annual in the table 'marks'.
+Rename the column name from medal_won to medal_received in the table medals.
+Add a column medal_received to the table medals.
+Write a trigger to copy the values to both the columns(medal_won and medal_received) whenever any of these columns inserted/updated.
+Drop the column medal_won.
+Day 5:
+Prepared statements (java)
+JDBC
+Transactions
+Exercise
+Try out the Phone Directory problem using database. The program should do the following,
+Load the sample data from the csv or JSON file into the database.
+Search(given in that program) should return the results from the database.
+Give options to add and update the name and phone numbers.
+ 

@@ -1,0 +1,68 @@
+body {
+    margin-left:auto;
+    margin-right:auto;
+}
+#main-container{
+	font-family: Arial;
+	position: relative;
+	width: 400px;
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+#registration-box{
+	padding-top: 100px;
+}
+#app-name-container{
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+#app-name{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	float: left;
+	font-size: 250%;
+}
+#function{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.input-box{
+	position: absolute;
+	width: 170px;
+	height: 30px;
+	font-family: Arial;
+	font-size: 100%;
+	border-radius: 2px;
+	border: 1px solid #000000;
+	position: relative;
+	height: 40px;
+	padding-left: 2px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.submit-btn{
+	color: #ffffff;
+	background-color: #ff5b74;
+    height: 50px;
+    padding: 10px 60px;
+    letter-spacing: 1px;   
+	font-size: 100%;
+    border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+
+#submit-box{
+	font-size: 100%;
+	padding-top: 60px;
+	border-radius: 2px;
+	position: relative;
+	text-align: center;
+	width: 97.5%;
+	float: bottom;
+}
+

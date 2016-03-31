@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit details</title>
+	<link rel="stylesheet" type="text/css" href="edit-details-styles.css">
+</head>
+<body>
+	<div id="header">
+		<div id="app-name">Space Portal</div>
+		<div id="block"></div>
+		<div id="right-buttons">
+			<div id="user-name">Hi name</div>
+			<div id="deactivate-button-box">Deactivate!</div>
+			<div id="logout-button-box">Logout</div>
+		</div>
+	</div>
+	<div id="app-container">
+		<div id="app-welcome-container">
+			Edit details
+		</div>
+		<div id="edit-container">
+			<form name="login-form" action="something">
+				<div id="name-block">
+					<div id="name-label-box">Name:</div>
+					<div id-"name-box">
+						<div id="user-input-firstname-box">
+							<input type="email" class="input-box" name="firstname" placeholder="First Name" required>
+						</div>
+						<div id="user-input-lastname-box">
+							<input type="text" class="input-box" name="lastname" placeholder="Last Name" required>
+						</div>
+					</div>
+				</div>
+				<div id="email-block">
+					<div id="email-label-box">Email:</div>
+					<div id-"email-box">
+						<input type="email" class="input-box" name="firstname" placeholder="Enter email" readonly>
+					</div>
+				</div>
+				<div id="address-block">
+					<div id="address-label-box">Address</div>
+					<div id-"address-box">
+						<div id="address-line">
+							<input type="email" class="address-input-box" name="firstname" placeholder="Address Line 1" required>
+						</div>
+						<div id="address-line">
+							<input type="email" class="address-input-box" name="firstname" placeholder="Address Line 2" required>
+						</div>
+						<div id="address-line">
+							<input type="email" class="input-box" name="firstname" placeholder="City" required>
+							<select name="state" class="input-box">
+    						  <option value="" disabled selected>State</option>
+							  <option value="Karnataka">Karnataka</option>
+							  <option value="Tamil nadu">Tamil nadu</option>
+							  <option value="Kerala">Kerala</option>
+							  <option value="Orissa">Orissa</option>
+							</select>
+						</div>
+						<div id="address-line">
+							<input type="email" class="input-box" name="firstname" placeholder="Zip" required>
+							<select name="country" class="input-box">
+    						  <option value="" disabled selected>Country</option>
+							  <option value="India">India</option>
+							  <option value="U.S.A">U.S.A</option>
+							  <option value="Sri Lanka">Sri Lanka</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div id = "edit-details-box">
+					<input type="submit" class="save-btn" value="Save details">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

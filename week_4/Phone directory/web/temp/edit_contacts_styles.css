@@ -1,0 +1,276 @@
+body {
+	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#app-name{
+	padding-left: 20px;
+	padding-top: 15px;
+	float: left;
+	font-family: Arial;
+	font-size: 100%;
+	color: #ffffff;
+}
+.save-btn{
+	color: #ffffff;
+	background-color: #ff5b74;
+    height: 50px;
+    padding: 10px 40px;
+    letter-spacing: 1px;   
+	font-size: 80%;
+    border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+#app-container{
+	font-family: sans-serif;
+	position: relative;
+	height: 500px;
+	width: 550px;
+	margin-left: 30%;
+	margin-top: 80px;
+	float: left;
+}
+#edit-details-box{
+	padding-top: 20px;
+	padding-left: 80px;
+	float: left;
+	position: relative;
+	width: auto;
+	height: 70px;
+	font-size: 25px;
+}
+#name-block{
+	position: relative;
+	width: auto;
+	height: 70px;
+	font-size: 25px;
+}
+#deactivate-button-box{
+	padding-left: 20px;
+	padding-top: 15px;
+	text-align: center;
+	float:left;
+	width: 100px;
+	font-family: Arial;
+	font-size: 100%;
+	color: #ffffff;
+    border: 2px solid #99cca4;
+	background-color: #99cca4;
+}
+#logout-button-box{
+	padding-left: 20px;
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	width: 100px;
+	font-family: Arial;
+	font-size: 100%;
+	color: #ffffff;
+    border: 2px solid #99cca4;
+	background-color: #99cca4;
+}
+#email-block{
+	position: relative;
+	width: auto;
+	height: 70px;
+	font-size: 25px;
+}
+#address-block{
+	position: relative;
+	width: auto;
+	height: 150px;
+	font-size: 25px;
+}
+#name-label-box{
+	position: relative;
+	float: left;
+	padding-right: 30px;
+	font-size: 70%;
+}
+#name-box{
+	position: relative;
+	float: left;
+	padding-left: 20px;
+	font-size: 25px;
+}
+#email-label-box{
+	position: relative;
+	float: left;
+	padding-right: 30px;
+	font-size: 70%;
+	height: 60px;
+}
+#email-box{
+        width: auto;
+	position: relative;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+}
+#address-line{
+	padding-top: 5px;
+}
+#address-label-box{
+	position: relative;
+	float: left;
+	height: 150px;
+	font-size: 70%;
+}
+#address-box{
+	position: relative;
+	float: right;
+	padding-left: 20px;
+	font-size: 25px;
+}
+#edit-container{
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 60px;
+}
+#app-welcome-container{
+	font-size: 200%;
+	padding-top: 40px;
+	text-align: center;
+	position: relative;
+	background-color: #ffffff;
+	width: auto;
+	height: 40px;
+	margin-top: auto;
+	color: #000000;
+}
+
+#user-name{
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	font-family: Arial;
+	font-size: 100%;
+	width: 100px;
+	color: #ffffff;
+}
+#right-buttons{
+	position: relative;
+	float: right;
+	width: 350px;
+	background-color: #99cca4;
+}
+
+#block{
+	float: left;
+	position: relative;
+	height: 100%;
+	background-color: #000000;
+}
+
+#header{
+	float: left;
+	overflow: hidden; 
+	position: absolute;
+	height: 50px;
+	width: 1280px;
+	background-color: #99cca4;
+}
+#email-input-box{
+        width: 300px;
+        height: 30px;
+	padding-left: 5px;
+	font-family: Arial;
+	font-size: 100%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	font-size: 70%;
+}
+.input-box{
+	font-size: 20px;
+	margin-top: 5px;
+	width: 170px;
+	height: 30px;
+	padding-left: 5px;
+	font-family: Arial;
+	font-size: 100%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+}
+.address-input-box{
+	margin-top: 4px;
+	width: 352px;
+	height: 30px;
+	padding-left: 5px;
+	font-family: Arial;
+	font-size: 100%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	font-size: 20px;
+}
+
+#user-input-firstname-box{
+	position: relative;
+	float: left;
+	height: 40px;
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+#user-input-lastname-box{
+	float: right;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+.submit-btn{
+	color: #ffffff;
+	background-color: #ff5b74;
+    height: 50px;
+    padding: 10px 60px;
+    letter-spacing: 1px;   
+	font-size: 100%;
+    border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+#user-input-email-box{
+	float: left;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+	
+}
+#user-input-confirm-email-box{
+	float: right;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+	
+}
+#number-label-block{
+	min-width: 90px;
+	min-height: 200px;
+	position: relative;
+	float: left;
+}
+#numbers-block{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#user-input-password-box{
+	float: left;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+}
+#submit-box{
+	font-size: 100%;
+	padding-top: 100px;
+	border-radius: 2px;
+	position: relative;
+	text-align: center;
+	width: 97.5%;
+	float: bottom;
+}
+#user-input-confirm-password-box{
+	float: right;
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+	
+}
